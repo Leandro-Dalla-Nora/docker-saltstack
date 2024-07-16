@@ -1,5 +1,5 @@
 FROM ubuntu:24.04
-MAINTAINER tim@cyface.com
+# MAINTAINER tim@cyface.com
 
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1
 RUN apt-get update; apt-get install -y curl
